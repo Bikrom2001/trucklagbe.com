@@ -1,0 +1,385 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #F3F3F3;
+
+}
+a{
+    text-decoration: none;
+    color: none;
+
+}
+img{
+    max-width: 100%;
+}
+/* nav bar */
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(176,0,0,1.0);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+    padding: 0px 25px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgba(176,0,0,1.0);
+}
+a#navbarDropdown {
+    border: 1px solid;
+    padding: 0 18px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 3px;
+    height: 3px;
+    background: rgba(127,127,127,1);
+    cursor: pointer;
+    border: 5px solid rgba(255,255,255,1);
+    box-sizing: content-box;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2);
+    margin: 0 3px;
+   
+}
+
+/* apps  */
+.apps{
+    padding: 30px 0;
+    background-color: white;
+    margin-top: 40px;
+   
+}
+.dowland-text{
+    text-align: center;
+}
+.dowland-text h2{
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    color: #212121;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnapps {
+    background: rgb(193,0,0);
+    color: white;
+    padding: 9px 20px;
+    margin-top: 9px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.btnapps:hover{
+    color: white;
+}
+
+/* কেন “ট্রাক লাগবে” বেছে নিবেন? */
+
+.track{
+    padding-bottom: 50px;
+    /* background: gold; */
+}
+.track-text h2{
+    padding-top: 19px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+    text-transform: none;
+    line-height: 60px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    color: #212121;
+    margin-top: -10px;
+}
+.box{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.box .lines1{
+    background-color: #212121;
+    width: 80px;
+    height: 1px;
+}
+.box .lines2{
+    background-color: #212121;
+    width: 80px;
+    height: 1px;
+}
+.box1{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #212121;
+
+}
+.track-img{
+    text-align: center;
+}
+.track-img h4{
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 20px;
+    transition: 0.6s;
+    color: #212121;
+}
+.track-img h4:hover{
+    color: rgb(245, 0, 0);
+    text-decoration: underline;
+}
+/* মিডিয়া ফিচার */
+.media{
+    padding: 70px 0;
+}
+
+/* পণ্যপ্রেরকের মতামত */
+.product{
+    padding: 50px 0;
+    background: white;
+}
+.product-text{
+    text-align: center;
+}
+.product-text p{
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    line-height: 30px;
+    color: #444;
+    padding-top: 25px;
+}
+/* আমাদের গ্রাহক */
+.clent{
+    padding: 60px 0;
+    
+}
+.clent-img img{
+    width: 220px;
+    margin: auto;
+}
+
+
+/* ট্রাকের প্রকারভেদ */
+.track-ditels{
+    padding: 50px 0;
+    background: white;
+}
+
+.feet-text{
+    font-weight: bold;
+}
+.feet-text2{
+
+}
+.card:hover .feet-text{
+    color: rgb(245, 0, 0);
+}
+.card:hover .feet-text2{
+    color: rgb(153, 9, 9);
+}
+.card{
+    cursor: pointer;
+}
+/* ব্লগ */
+.bolog{
+    padding: 50px 0;
+
+}
+.rec-post-content a{
+    margin: 0;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 163%;
+    letter-spacing: normal;
+    text-transform: none;
+    transition: 0.3s;
+}
+.rec-post-content a:hover{
+    color: rgb(245, 0, 0);
+    text-decoration: underline;
+}
+.spot-btn{
+    color: gray;
+    transition: 0.3s;
+    padding: 10px 25px;
+}
+.spot-btn:hover{
+color: rgb(245, 0, 0);
+text-decoration: underline;
+border: 1px solid rgb(245, 0, 0);
+
+}
+
+.btnapps2 {
+    background: rgb(245, 0, 0);
+    color: white;
+    padding: 9px 12px;
+    margin-top: 9px;
+    font-size: 14px;
+}
+.btnapps2:hover{
+    color: white;
+}
+.btn-gp{
+    text-align: center;
+    padding-top: 25px;
+}
+/* ট্রাক ভাড়া করুন */
+.track-vara{
+    padding: 40px 0;
+    background-image: url('img/img.webp');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btnapps3 {
+   background: #b00000;
+    color: white;
+    padding: 15px 25px;
+    margin-top: 9px;
+    font-size: 18px;
+}
+.btnapps3:hover{
+    color: white;
+}
+.btn-gp2{
+    text-align: center;
+    padding-top: 25px;
+}
+.track-vara-text h1{
+    text-align: center;
+    color: white;
+}
+.right-track-text h1{
+    text-align: right;
+    color: white;
+}
+.right-track-text{
+    text-align: right;
+}
+.right-track-text img{
+   padding-top: 30px;
+}
+
+/* footer */
+
+.footer{
+    padding: 50px 0;
+    background: white;
+}
+.footer-text{
+    padding-top: 25px;
+}
+.footer-text p{
+      line-height: 214%;
+     margin: 0;
+     color: rgba(33,33,33,0.8);;
+}
+.footer-text02 h4{
+    font-weight: 600;
+    padding-top: 12px;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+.footer-text02 p{
+    color: rgba(33,33,33,0.8);
+    transition: 0.3s;
+    
+}
+.footer-text02 p:hover{
+    text-decoration: underline;
+}
+.footer-text03 h4{
+    font-weight: 600;
+    padding-top: 12px;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+.footer-text03 p{
+    color: rgba(33,33,33,0.8);
+    transition: 0.3s;
+    
+}
+
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #d90808;
+    
+    border-radius: .25rem;
+}
+.socal-icons{
+    display: flex;
+    gap: 8px;
+}
+.socal-icons i{
+    font-size: 18px;
+    color: rgba(176,0,0,1.0);
+    border: 1px solid rgba(176,0,0,1.0);
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.scrollTop2 {
+    height: 56px;
+    width: 56px;
+    background-color: rgb(176, 0, 0);
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 15%) 0px 12px 24px 0px;
+    padding-top: 9px;
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+    z-index: 99999;
+    /* display: none; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scrollTop2 a{
+    color: #fff;
+}
+.scrollTop2 i {
+    font-size: 42px;
+}
+
+
+.scrollTop {
+    /* height: 40px;
+    width: 40px; */
+    /* background: hsla(0,0%,50%,.6); */
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 9px;
+    position: fixed;
+    right: 20px;
+    bottom: 126px;
+    z-index: 99999;
+    /* display: none; */
+}
+.scrollTop a{
+    color: #fff;
+}
+.scrollTop i {
+    font-size: 32px;
+}
+  
+
